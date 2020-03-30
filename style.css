@@ -1,45 +1,26 @@
 
 /*-------------------first column nav bar----------------------- */
-
-
+.active a{
+  text-decoration: none;
+  color: white;
+}
+li a{
+  text-decoration: none;
+}
 .col1{
+  margin-top: 100px;
   min-height: 500px;
   background-color:white;
-  padding: 3px;
   text-align: center;
   background-image: url('backg3.jpg');
   opacity: 80%;
   background-size: cover;
+  border: 2px aqua solid;
+  border-radius: 2px aqua solid;
 }
-
-
-.navbar {
-  overflow:hidden;
-  background-color: #333;
-  width:100%;
-  
-  
-}
-.navbar a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar a:hover {
-  background: #f1f1f1;
-  color: black;
+ul a{
   text-decoration: none;
 }
-
-.navbar a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
 
 #titlemain{
   text-align: center;
@@ -58,9 +39,7 @@
   font-size: 16px;
   cursor: pointer;
   animation: buttons 3s;
-  
   animation-delay: 1s;
-  
 }
 .butt a{
 text-decoration: none;
