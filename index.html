@@ -13,41 +13,57 @@
     <script src="script.js" type="text/javascript"/></script>
   </head>
   <body>
-<main>
-  <nav class="navbar fixed-top navbar-dark bg-dark">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <img class="navbar-brand" height="60px" src="favicon.ico" alt="logo"><font color="white" size="5px"><font color="blue">S</font>aikat<font color="red">P</font>aul</font></a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">HOME</a></li>
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#gotoproject">PROJECT</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-      </ul>
+    <header>
+  <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark">
+    <div class="navbar-header">
+      <img class="navbar-brand" height="40px" src="favicon.ico">
+      <a class="navbar-brand" href="#">SaikatPaul</a>
     </div>
-  </nav>
-
-
+    <ul class="navbar-nav ml-auto"> 
+      <li class="nav-item"> 
+        <a class="nav-link" href="#"> 
+        <font color="white">HOME</font>
+        </a> 
+    </li> 
+      <li class="nav-item"> 
+          <a class="nav-link" href="#about"> 
+            ABOUT
+          </a> 
+      </li> 
+      <li class="nav-item"> 
+        <a class="nav-link" href="#gotoproject"> 
+         PROJECTS
+        </a> 
+    </li> 
+      <li class="nav-item"> 
+          <a class="nav-link" href="#contact"> 
+            CONTACT
+          </a> 
+      </li> 
+      
+  </ul> 
+</nav> 
+</header>
+<main>
 <div class="container-fluid">
   <a name="return"></a>
   <div class="row">
-  <div class="col-md-12">
-  <div class="col1">
-    <div id="titlemain">
-    <h2>Hi! My name is <font color="blue">Saikat Paul</font>.<br> I am a Full Stack Web Developer </h2><br>
-    <div class="butt">
-    <a href="#gotoproject" class="button">VIEW MY PROJECTS</a>
+    <div class="col-md-12">
+      <div class="col1">
+        <div id="titlemain">
+        <h2>Hi! My name is <font color="blue">Saikat Paul</font>.<br> I am a Full Stack Web Developer </h2><br>
+        <div class="butt">
+        <a href="#gotoproject" class="button">VIEW MY PROJECTS</a>
+        </div>
+        </div>
+      </div>
     </div>
   </div>
-  </div>
-</div>
-</div>  
+  <a name="about"></a>  
   <div class="row">
   <div class ="col-md-12">
   <div class ="col2">
     <div class="title">
-      <a name="about"></a>
       <h1>ABOUT</h1>
       <span class="underline">
       </span>
@@ -128,38 +144,39 @@
   </div>
 
   <div class ="row">
+    <a name="gotoproject"></a>
     <div class=col-md-12>
-  <div class="col9">
-    <div class="title">
-      <a name="gotoproject"></a>
+      <div class="col9">
+      <div class="title">
       <h1>PROJECTS</h1>
       <span class="underline">
       </span>
-    </div>
+      </div>
+      </div>
   </div>
-  </div>
-</div>
-<div class ="row">
-  <div class=col-md-4>
-<div class="col10">
-<div class="projectImg">
-  <img src="pendulum2.PNG">
-</div>
-<div class="projectdetail">
- <a href="https://projects.skill-lync.com/projects/Simulating-second-order-equation-of-a-simple-pendulum-using-mat-lab-73807" <p>Transient Simple Pendulum Simulation Using Matlab</p></a>
-</div>
-</div>
 </div>
 
-<div class=col-md-4>
-  <div class="col10">
-    <div class="projectImg">
-      <img src="robot.PNG">
+<div class ="row">
+  <div class=col-md-4>
+    <div class="col10">
+      <div class="projectImg">
+      <img src="pendulum2.PNG">
+      </div>
+        <div class="projectdetail">
+        <a href="https://projects.skill-lync.com/projects/Simulating-second-order-equation-of-a-simple-pendulum-using-mat-lab-73807" <p>Transient Simple Pendulum Simulation Using Matlab</p></a>
+        </div>
     </div>
-    <div class="projectdetail">
-     <a href="https://projects.skill-lync.com/projects/2R-Robotic-Arm-Simulation-Using-Python-and-Sublime-04539" <p>2R Robotic Arm Simulation Using Python Programming Language</p></a>
+</div>
+
+  <div class=col-md-4>
+    <div class="col10">
+      <div class="projectImg">
+        <img src="robot.PNG">
+      </div>
+      <div class="projectdetail">
+      <a href="https://projects.skill-lync.com/projects/2R-Robotic-Arm-Simulation-Using-Python-and-Sublime-04539" <p>2R Robotic Arm Simulation Using Python Programming Language</p></a>
+      </div>
     </div>
-  </div>
   </div>
   <div class=col-md-4>
     <div class="col10">
@@ -170,7 +187,7 @@
        <a href="https://projects.skill-lync.com/projects/2R-Robotic-Arm-Simulation-Using-Python-and-Sublime-04539" <p>Calculating Aerodynamic Drag Force Over a Bicycle</p></a>
       </div>
     </div>
-    </div>
+  </div>
 </div>
 
 <div class="row">
@@ -202,12 +219,11 @@
     </div>
     </div>
   </div>
-
+  <a name="contact"></a>
 <div class ="row">
 <div class="col-md-12">
 <div class ="col13">
   <div class="title">
-    <a name="contact"></a>
     <h1>CONTACT</h1>
     <span class="underline">
     </span>
