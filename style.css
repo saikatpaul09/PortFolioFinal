@@ -8,7 +8,7 @@ li a{
   text-decoration: none;
 }
 .col1{
-  margin-top: 100px;
+  margin-top: 50px;
   min-height: 500px;
   background-color:white;
   text-align: center;
@@ -38,7 +38,7 @@ ul a{
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  animation: buttons 3s;
+  animation: buttons 2s;
   animation-delay: 1s;
 }
 .butt a{
@@ -61,14 +61,11 @@ text-decoration: none;
 @media only screen and (max-width:600px){
   @keyframes buttons{
     0%   {left:0px;top:0px;}
-  20%  {left:20%;top:0px;}
-  40%   {left:20%;top:80px;}
-  60%   {left:0px;top:80px;}
+  50%  {left:0px;top:80px;}
   100%   {left:0px;top:0px;} 
   }
   .col1{
-  background-image: url('backg3.jpg');
-  background-size: cover;
+  margin-top: 100px;
   }
 }
 /*-------------------About section---------------------- */
@@ -207,28 +204,28 @@ margin-top: 80px;
 }
 .html{
   width:75%;
-  animation:html 6s ;
-  animation-delay: 5s;
+  animation:html 3s ;
+  animation-delay: 4s;
 }
 .css3{
   width:70%;
-  animation:css3 6s;
-  animation-delay: 5s;
+  animation:css3 3s;
+  animation-delay: 4s;
 }
 .js{
   width:50%;
-  animation:js 6s;
-  animation-delay: 5s;
+  animation:js 3s;
+  animation-delay: 4s;
 }
 .cpro{
   width:65%;
-  animation:cpro 6s;
-  animation-delay: 5s;
+  animation:cpro 3s;
+  animation-delay: 4s;
 }
 .python{
   width: 60%;
-  animation:python 6s;
-  animation-delay: 5s;
+  animation:python 3s;
+  animation-delay: 4s;
 }
 
 @keyframes html{
