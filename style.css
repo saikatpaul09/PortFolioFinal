@@ -1,278 +1,423 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Saikat Paul Portfolio</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <script src="https://use.fontawesome.com/22b587bdb3.js"></script>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" href="favicon.ico">
-    <script src="script.js" type="text/javascript"/></script>
-  </head>
-  <body>
-    <header>
-  <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark">
-    <div class="navbar-header">
-      <img class="navbar-brand" height="40px" src="favicon.ico">
-      <a class="navbar-brand" href="#">SaikatPaul</a>
-    </div>
-    <ul class="navbar-nav ml-auto"> 
-      <li class="nav-item"> 
-        <a class="nav-link" href="#"> 
-        <font color="white">HOME</font>
-        </a> 
-    </li> 
-      <li class="nav-item"> 
-          <a class="nav-link" href="#about"> 
-            ABOUT
-          </a> 
-      </li> 
-      <li class="nav-item"> 
-        <a class="nav-link" href="#gotoproject"> 
-         PROJECTS
-        </a> 
-    </li> 
-      <li class="nav-item"> 
-          <a class="nav-link" href="#contact"> 
-            CONTACT
-          </a> 
-      </li> 
-      
-  </ul> 
-</nav> 
-</header>
-<main>
-<div class="container-fluid">
-  <a name="return"></a>
-  <div class="row">
-    <div class="col-md-12">
-      <div class="col1">
-        <div id="titlemain">
-        <h2>Hi! My name is <font color="blue">Saikat Paul</font>.<br> I am a Full Stack Web Developer </h2><br>
-        <div class="butt">
-        <a href="#gotoproject" class="button">VIEW MY PROJECTS</a>
-        </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <a name="about"></a>  
-  <div class="row">
-  <div class ="col-md-12">
-  <div class ="col2">
-    <div class="title">
-      <h1>ABOUT</h1>
-      <span class="underline">
-      </span>
-    </div>
-  </div>
-  </div>
-  </div>
 
+/*-------------------first column nav bar----------------------- */
+.active a{
+  text-decoration: none;
+  color: white;
+}
+li a{
+  text-decoration: none;
+}
+.col1{
+  margin-top: 30px;
+  min-height: 500px;
+  background-color:white;
+  text-align: center;
+  background-image: url('backg3.jpg');
+  opacity: 80%;
+  background-size: cover;
+  border: 2px aqua solid;
+  border-radius: 2px aqua solid;
+}
+ul a{
+  text-decoration: none;
+}
+
+#titlemain{
+  text-align: center;
+  margin-top: 100px;
+  font-weight: bolder;
   
-  <div class="row">
-    <div class ="col-md-3">
-    <div class ="col3">
-      <div class="about1">
-        <img src="about1.png">
-      </div>
-      <div class="about1I">
-      <p>Creative and hassle-free designs with minimal load time. </p>
-      </div>
-    </div>
-    </div>
-    <div class ="col-md-3">
-      <div class ="col4">
-        <div class="about1">
-          <img src="about2.png">
-        </div>
-        <div class="about1I">
-        <p>Strong responsive webpages with excellent user experience</p>
-        </div>
-      </div>
-      </div>
-      <div class ="col-md-3">
-        <div class ="col5">
-          <div class="about1">
-            <img src="about3.png">
-          </div>
-          <div class="about1I">
-          <p>Good command on wide array of programming languages. </p>
-          </div>
-        </div>
-        </div>
-        <div class ="col-md-3">
-          <div class ="col6">
-            <div class="about1">
-              <img src="about4.png">
-            </div>
-            <div class="about1I">
-            <p>Excellent Problem solving and web-optimization skills</p>
-            </div>
-          </div>
-          </div>
-        </div>
+}
+.button{
+  position: relative;
+  border: 2px blue solid;
+  color:blue;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  animation: buttons 2s;
+  animation-delay: 1s;
+}
+.butt a{
+text-decoration: none;
+}
+.butt a:hover{
+  background-color:black;
+  color:white;
+  text-decoration: none;
+}
+@keyframes buttons{
+  0%   {left:0px;top:0px;}
+  25%  {left:200px;top:0px;}
+  50%   {left:200px;top:100px;}
+  75%   {left:0px;top:100px;}
+  100%   {left:0px;top:0px;}
+ 
+}
 
-  <div class="row">
-  <div class="col-md-4">
-  <div class="col7">
-    <div id="holder">
-    <img src="me.png">
-    </div>
-    <div class="myshortdetail">
-    <p>Full Stack Web Developer at <font color="blue">Outscal</font>,<br>I have worked on numerous frontend and backened related projects. Passionate about creating intuitive designs for better user experience. <br> <font color="blue">DM For Collab.</font>  </p>
-    </div>
-  </div>
-  </div>
-  <div class="col-md-8">
-   <div class="col8">
-    <div class="skillshead">
-    <h3>SKILLS</h3>
-    </div>
-    <div class = skillsanime>
-      <span class="bar"><p>HTML5 &nbsp</p><span class="html"></span></span><br>
-      <span class="bar"><p>CSS3 &nbsp</p><span class="css3"></span></span><br>
-      <span class="bar"><p>JavaScript &nbsp</p><span class="js"></span></span><br>
-      <span class="bar"><p>C++ &nbsp</p><span class="cpro"></span></span><br>
-      <span class="bar"><p>Python &nbsp</p><span class="python"></span></span><br>
-    </div>
-   </div>
-   </div>
-  </div>
+@media only screen and (max-width:600px){
+  @keyframes buttons{
+    0%   {left:0px;top:0px;}
+  50%  {left:0px;top:80px;}
+  100%   {left:0px;top:0px;} 
+  }
+  .col1{
+  margin-top: 100px;
+  }
+}
+/*-------------------About section---------------------- */
+.col2{
+  text-align: center;
+  min-height: 150px;
+}
+/*-------------------About pictures ---------------------- */
+.col3{
+  min-height: 280px;
+  text-align: center;
+  
+}
 
-  <div class ="row">
-    <a name="gotoproject"></a>
-    <div class=col-md-12>
-      <div class="col9">
-      <div class="title">
-      <h1>PROJECTS</h1>
-      <span class="underline">
-      </span>
-      </div>
-      </div>
-  </div>
-</div>
+.col4{
+  min-height: 280px;
+  text-align: center;
+  
+}
+.col5{
+  height: 280px;
+  text-align: center;
+}
+.col6{
+  height: 280px;
+  text-align: center;
+ 
+}
+.about1 {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  background-color: white;
+  width: 85%;
+  top: 10px;
+  height: 150px;
+}
+.about1 img{
+  height: 140px;
+  width: auto;
+}
+.about1I{
+position: relative;
+display: inline-block;
+margin: 0 auto;
+width: 85%;
+height: 100px;
+margin-top:10px ;
+opacity: 80%;
+padding: 10px;
+}
+/*------------------my profile pic image part ---------------------- */
+.col7{
+  min-height: 600px;
+  text-align: center;
+  background-color: whitesmoke;
 
-<div class ="row">
-  <div class=col-md-4>
-    <div class="col10">
-      <div class="projectImg">
-      <img src="pendulum2.PNG">
-      </div>
-        <div class="projectdetail">
-        <a target="_blank" href="https://projects.skill-lync.com/projects/Simulating-second-order-equation-of-a-simple-pendulum-using-mat-lab-73807" <p>Transient Simple Pendulum Simulation Using Matlab</p></a>
-        </div>
-    </div>
-</div>
+}
+#holder{
+position: relative;
+display: inline-block;
+width: 85%;
+margin: 0 auto;
+padding: 20px;
+background-color: yellow;
+max-height: 350px;
+min-height: 300px;
+margin-top: 20px;
+}
+#holder img{
+  
+  max-width: 55%;
+  min-width: 40%;
+  max-height: 200px;
+  min-height: 150px;
+  margin-top: 40px;
+}
+/*------------------my small description ---------------------- */
+.myshortdetail{
+position: relative;
+display: inline-block;
+margin: 0 auto;
+margin-top: 20px ;
+padding: 5px;
+}
+/*------------------skills part ---------------------- */
+.col8{
+  min-height: 600px;
+  background-color: white;
+  text-align: center;
+ 
+}
+.skillshead{
+position: relative;
+display: inline-block;
+margin: 0 auto;
+width: 40%;
+height: 40px;
+color: turquoise;
+margin-top: 40px;
+opacity: 70%;
+border: 1px turquoise solid;
+}
+.skillsanime{
+position: relative;
+display: inline-block;
+margin: 0 auto;
+width:100%;
+padding: 4px;
+height: 440px;
+margin-top: 80px;
+}
+.bar{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  background-color:lightcyan;
+  height: 25px;
+  max-width: 450px;
+  border: 1px solid rgba(0,0,0,0.3);
+  overflow: hidden;
+  box-shadow: 0 0 10px #02075d;
+  opacity: 80%;
+  border-radius: 2px;
+  
+}
+.bar p{
+  float: right;
+  font-weight: bold;
+  color:black;
+}
+.bar span{
+  height :24px;
+  float:left;
+  background:#2187e7; 
+}
+.html{
+  width:75%;
+  animation:html 3s ;
+  animation-delay: 4s;
+}
+.css3{
+  width:70%;
+  animation:css3 3s;
+  animation-delay: 4s;
+}
+.js{
+  width:50%;
+  animation:js 3s;
+  animation-delay: 4s;
+}
+.cpro{
+  width:65%;
+  animation:cpro 3s;
+  animation-delay: 4s;
+}
+.python{
+  width: 60%;
+  animation:python 3s;
+  animation-delay: 4s;
+}
 
-  <div class=col-md-4>
-    <div class="col10">
-      <div class="projectImg">
-        <img src="robot.PNG">
-      </div>
-      <div class="projectdetail">
-      <a target="_blank" href="https://projects.skill-lync.com/projects/2R-Robotic-Arm-Simulation-Using-Python-and-Sublime-04539" <p>2R Robotic Arm Simulation Using Python Programming Language</p></a>
-      </div>
-    </div>
-  </div>
-  <div class=col-md-4>
-    <div class="col10">
-      <div class="projectImg">
-        <img src="cycle1.PNG">
-      </div>
-      <div class="projectdetail">
-       <a target="_blank" href="https://projects.skill-lync.com/projects/2R-Robotic-Arm-Simulation-Using-Python-and-Sublime-04539" <p>Calculating Aerodynamic Drag Force Over a Bicycle</p></a>
-      </div>
-    </div>
-  </div>
-</div>
+@keyframes html{
+  0%{
+    width:0%;
+  }
+  100%{
+    width:75%;
+  }
+}
 
-<div class="row">
-  <div class ="col-md-12">
-    <div class ="col11">
-      <div class="title">
-        <h1>BLOG</h1>
-        <span class="underline">
-        </span>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="row">
-<div class ="col-md-4">
-<div class="col12">
-  Blog1
-</div>
-</div>
-<div class ="col-md-4">
-  <div class="col12">
-    Blog2
-  </div>
-  </div>
-  <div class ="col-md-4">
-    <div class="col12">
-      Blog3
-    </div>
-    </div>
-  </div>
-  <a name="contact"></a>
-<div class ="row">
-<div class="col-md-12">
-<div class ="col13">
-  <div class="title">
-    <h1>CONTACT</h1>
-    <span class="underline">
-    </span>
-  </div>
-</div>
-</div>
-</div>
-
-<div class="row">
-<div class="col-md-12">
-<div class="col14">
-<div class="contactform">
-  <form>
-    <label for="Name">Name:</label>
-    <input type="text" id="Name" name="Name"placeholder="Your name">
-    <label for="Email">Email Id:</label>
-    <input type="text" id="Email" name="Email" placeholder="@gmail.com">
-    <label for="Message">Write a Message:</label>
-    <input type="text" id="Message" height="100" name="Message" placeholder="Write your queries">
-    <input type="button" onclick="ContactMe();" name="ok" value="Submit">
-  </form>
-</div>
-<br>
-
-<a href="#return"><div class="return1">TOP</div></a>
+@keyframes css3{
+  0%{
+    width:0%;
+  }
+  100%{
+    width:70%;
+  }
+}
+@keyframes js{
+  0%{
+    width:0%;
+  }
+  100%{
+    width:50%;
+  }
+}
+@keyframes cpro{
+  0%{
+    width:0%;
+  }
+  100%{
+    width:65%;
+  }
+}
+@keyframes python{
+  0%{
+    width:0%;
+  }
+  100%{
+    width:60%;
+  }
+}
 
 
+/*------------------projects---------------------- */
+.col9{
+  height: 150px;
+  text-align: center;
+  background-color:white;
+  
+}
+.col10{
+  min-height: 350px;
+  text-align: center;
+  background-color: whitesmoke;
+}
+.projectImg{
+  position: relative;
+  display: inline-block;
+  margin:0 auto;
+  background-color: white;
+  max-height: 340px;
+  min-height: 200px;
+  width: 90%;
+  margin-top: 18px;
+  padding: 10px;
+}
+
+.projectImg img{
+  height:200px ;
+  min-height: 180px;
+  width: 80%;
+  min-width: 70%;
+}
+.projectImg img:hover{
+  animation:swing 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes swing{
+ 50%{
+    transform:rotateX(-60deg);
+  }
+}
+.projectdetail{
+  position: relative;
+  margin-top: 15px;
+  padding: 5px;
+  cursor: pointer;
+}
+.projectdetail a:hover{
+  color: blue;
+}
+.projectdetail a{
+  text-decoration: none;
+}
+
+/*------------------Blog---------------------- */
+.col11{
+  min-height: 150px;
+  position: relative;
+  text-align: center;
+  background-color: white;
+}
+.col12{
+  min-height: 300px;
+  position: relative;
+  text-align: center;
+  background-color:whitesmoke;
+}
+/*------------------Contact Form---------------------- */
+.col13{
+  margin-top: 0px;
+  min-height: 150px;
+  background-color: white;
+  text-align: center;
+}
+.col14{
+height: 600px;
+background-color:whitesmoke;
+text-align: center;
+}
+.contactform{
+  padding: 20px;
+  text-align: left;
+  position: relative;
+  display:inline-block;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 450px;
+  width: 500px ;
+  max-width: 90%;
+  min-height:300px;
+  background-color: white;
+  word-wrap: break-word;
+  color:black;
+  font-weight: bold;
+  
+}
+  input[type=text ] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+
+    border-radius: 4px;
+    box-sizing: content-box;
+    background-color: black;
+    color: white;
+  }
+#Message{
+  height: 100px;
+}
+
+.title{
+  color: aqua;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.underline{
+    display: inline-block;
+    margin: 0 auto;
+    background:aqua;
+    height :3px;
+    width: 50%; 
+}
 
 
-</div>
-</div>
-</div>
-
-</div>
-</main>
-
-
-
-
-
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-   
-    
-  </body>
-</html>
+.col17{
+  margin-top: 0px;
+  min-height: 150px;
+  background-color: white;
+  text-align: center;
+}
+/*------------------Return---------------------- */
+.return1{
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 40px;
+  height: 50px;
+  width: 100px;
+  border: 2px blue solid;
+  padding:10px;
+  font-weight: bold;
+}
+.return1 a{
+  text-decoration:none;
+}
+.return1:hover{
+  background-color: black;
+  color: white;
+}
