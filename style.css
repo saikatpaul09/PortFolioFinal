@@ -58,11 +58,12 @@
   font-size: 16px;
   cursor: pointer;
   animation: buttons 3s;
-  animation-timing-function: linear;
+  
   animation-delay: 1s;
+  
 }
 .butt a{
-text-decoration:none;
+text-decoration: none;
 }
 .butt a:hover{
   background-color:black;
@@ -77,17 +78,20 @@ text-decoration:none;
   100%   {left:0px;top:0px;}
  
 }
+
 @media only screen and (max-width:600px){
   @keyframes buttons{
     0%   {left:0px;top:0px;}
-  25%  {left:50px;top:0px;}
-  50%   {left:50px;top:100px;}
-  75%   {left:0px;top:100px;}
-  100%   {left:0px;top:0px;}
-    
+  20%  {left:20%;top:0px;}
+  40%   {left:20%;top:80px;}
+  60%   {left:0px;top:80px;}
+  100%   {left:0px;top:0px;} 
+  }
+  .col1{
+  background-image: url('backg3.jpg');
+  background-size: cover;
   }
 }
-
 /*-------------------About section---------------------- */
 .col2{
   text-align: center;
@@ -197,7 +201,6 @@ width:100%;
 padding: 4px;
 height: 440px;
 margin-top: 80px;
-
 }
 .bar{
   position: relative;
@@ -223,7 +226,7 @@ margin-top: 80px;
   float:left;
   background:#2187e7; 
 }
-.html {
+.html{
   width:75%;
   animation:html 6s ;
   animation-delay: 5s;
@@ -246,8 +249,9 @@ margin-top: 80px;
 .python{
   width: 60%;
   animation:python 6s;
-  animation-delay: 4s;
+  animation-delay: 5s;
 }
+
 @keyframes html{
   0%{
     width:0%;
@@ -256,6 +260,7 @@ margin-top: 80px;
     width:75%;
   }
 }
+
 @keyframes css3{
   0%{
     width:0%;
@@ -319,7 +324,16 @@ margin-top: 80px;
   min-height: 180px;
   width: 80%;
   min-width: 70%;
- 
+}
+.projectImg img:hover{
+  animation:swing 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes swing{
+ 50%{
+    transform:rotateX(-60deg);
+  }
 }
 .projectdetail{
   position: relative;
@@ -425,7 +439,7 @@ text-align: center;
   font-weight: bold;
 }
 .return1 a{
-  text-decoration: none;
+  text-decoration:none;
 }
 .return1:hover{
   background-color: black;
